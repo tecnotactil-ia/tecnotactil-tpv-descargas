@@ -1,31 +1,42 @@
-# TecnoTactil TPV - Descargas
+# TecnoTactil TPV
 
-Repositorio publico de descargas de TecnoTactil TPV.
-
-Este repositorio no contiene codigo fuente. Solo publica instaladores y notas de
-version para usuarios finales.
+Sistema de punto de venta para Windows orientado a comercios, tiendas y
+negocios que necesitan vender, controlar caja, gestionar inventario y trabajar
+con usuarios por permisos.
 
 ## Descargar
 
-La version actual es `1.0.0`.
+Version actual: `1.0.0`
 
 Descarga recomendada:
+
+[Descargar instalador para Windows](https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/releases/latest)
+
+Archivo publicado:
 
 ```text
 TecnoTactil_TPV_Instalador_v1.0.0.exe
 ```
 
-Si solo esta disponible `TecnoTactil_TPV.exe`, se trata de una build portable
-temporal. Para clientes finales se recomienda usar siempre el instalador.
+En Windows el instalador tambien tiene extension `.exe`. Al abrirlo muestra el
+asistente de instalacion de TecnoTactil TPV.
 
-En Windows el instalador tambien tiene extension `.exe`; al abrirlo debe mostrar
-el asistente de instalacion de TecnoTactil TPV.
+## Funcionalidades
+
+- ventas desde TPV con cobros en efectivo, transferencia o cuenta casa;
+- gestion de clientes y cuentas casa;
+- inventario con productos, categorias, precios, stock y alertas;
+- caja por usuario con apertura, entradas, salidas y cierre;
+- historial de ventas, anulaciones y comprobantes;
+- contabilidad y reportes de ingresos;
+- configuracion del negocio para imprimir datos de contacto en tickets;
+- impuestos de venta configurables;
+- usuarios con permisos personalizados por modulo y accion;
+- activacion de licencia conectada a TecnoTactil.
 
 ## Sitio oficial
 
-```text
-https://www.tecnotactil.com
-```
+[www.tecnotactil.com](https://www.tecnotactil.com)
 
 ## Soporte
 
@@ -33,7 +44,7 @@ https://www.tecnotactil.com
 soporte@tecnotactil.com
 ```
 
-## Seguridad
+## Verificacion
 
-Antes de instalar, verifica que el archivo viene desde una fuente oficial de
-TecnoTactil. Las sumas SHA256 se publican junto a cada version.
+Cada version publica incluye un archivo `SHA256SUMS.txt` para verificar la
+integridad del instalador descargado.
