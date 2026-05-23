@@ -9,5 +9,5 @@
 - Modo demo con limites.
 - Asistente de primer arranque.
 - Configuracion de negocio e impuestos.
+- Permisos personalizados por usuario.
 - Build protegido para distribucion.
-
