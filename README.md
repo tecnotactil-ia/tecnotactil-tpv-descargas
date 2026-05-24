@@ -6,7 +6,7 @@ con usuarios por permisos.
 
 ## Descargar
 
-Version actual: `1.0.0`
+Version actual: `1.1.0`
 
 Descarga recomendada:
 
@@ -15,7 +15,7 @@ Descarga recomendada:
 Archivo publicado:
 
 ```text
-TecnoTactil_TPV_Instalador_v1.0.0.exe
+TecnoTactil_TPV_Instalador_v1.1.0.exe
 ```
 
 En Windows el instalador tambien tiene extension `.exe`. Al abrirlo muestra el
@@ -28,11 +28,13 @@ asistente de instalacion de TecnoTactil TPV.
 - inventario con productos, categorias, precios, stock y alertas;
 - caja por usuario con apertura, entradas, salidas y cierre;
 - historial de ventas, anulaciones y comprobantes;
-- contabilidad y reportes de ingresos;
+- contabilidad, gastos del negocio y reportes de ingresos/gastos;
+- exportacion de reportes financieros en PDF;
 - configuracion del negocio para imprimir datos de contacto en tickets;
 - impuestos de venta configurables;
 - usuarios con permisos personalizados por modulo y accion;
 - activacion de licencia conectada a TecnoTactil.
+- base preparada para sincronizacion remota y futuras cajas Android.
 
 ## Sitio oficial
 
