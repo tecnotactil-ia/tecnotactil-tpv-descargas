@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.0 - 2026-06-23
+
+- Nueva aplicacion de escritorio con interfaz web moderna (WebView2): mas rapida, clara y consistente con la web.
+- Distribucion mediante INSTALADOR de Windows (asistente Inno Setup) en lugar de un ejecutable suelto.
+- Codigo de la aplicacion protegido/ofuscado para distribucion comercial.
+- Completados los modulos de Contabilidad (ingresos, gastos y balance por periodo) y Configuracion (negocio, IVA, moneda y mensaje del ticket).
+- Build mas liviano (~21 MB) al retirar dependencias graficas no usadas.
+- Corregido el arranque tras la instalacion (dependencias internas ahora empaquetadas correctamente).
+
 ## 1.1.0 - 2026-05-24
 
 - Agregado modelo de sincronizacion offline-first para servidor remoto y futuras cajas Android.

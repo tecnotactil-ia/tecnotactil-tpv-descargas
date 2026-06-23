@@ -6,16 +6,16 @@ con usuarios por permisos.
 
 ## Descargar
 
-Version actual: `1.1.0`
+Version actual: `2.0.0`
 
 Descarga recomendada:
 
-[Descargar instalador para Windows](https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/releases/latest)
+[Descargar instalador para Windows](https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe)
 
 Archivo publicado:
 
 ```text
-TecnoTactil_TPV_Instalador_v1.1.0.exe
+escritorio/TecnoTactil_Negocio.exe
 ```
 
 En Windows el instalador tambien tiene extension `.exe`. Al abrirlo muestra el
