@@ -1,1 +1,1 @@
-eb97f52dcd86b8a88bc58cd9f0d7947dda16172d090c9b3633e1238f6c288a3c  TecnoTactil_Negocio.exe
+6766aa3903742fafa967071b5b813436df32a63c0ec49e78d57a3fffc8bf8747  TecnoTactil_Negocio.exe
