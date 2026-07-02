@@ -1,0 +1,2 @@
+dd012d60d0da0f8c8a669bba97e89a2d4a9d6a41eda920386d327bb8daf86ef6 *TecnoTactil_Caja.apk
+0543aa07eaa611d593e1a59f507b7ee42744b66b2ea3182c7ae9cb71b50e1125 *TecnoTactil_Facturas.apk

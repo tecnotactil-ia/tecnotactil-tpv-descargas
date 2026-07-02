@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.5.3 - 2026-07-02
+
+- Escritorio: instalador UNICO para Windows 7 a 11 con navegador propio integrado (ya no depende de WebView2 ni de componentes del sistema; funciona 100% offline).
+- Escritorio: modo Administrador de Negocios (multinegocio) con aislamiento total por negocio, fichas de costo (Res. 20/2014), impuestos y reportes ONAT (Registro de Ingresos y Gastos, Vector Fiscal RC-04), contratos, facturas de entrada, cajeros para la Caja Android y panel de dispositivos.
+- Sincronizacion mas robusta: corregida la perdida de cambios locales del catalogo entre sincronizaciones; las ventas del PC ahora tambien se respaldan en el servidor.
+- Licencias: la aplicacion re-verifica la licencia al sincronizar (las renovaciones se reflejan al momento).
+- Caja (Android) 1.1.0: activacion multinegocio en 2 pasos (elige el negocio y ponle nombre a la caja); IVA calculado igual que en el escritorio; login de cajeros creado desde el PC.
+- Facturas (Android) 1.1.0: NUEVO - Estadisticas de venta (hoy / 7 dias / mes + top productos y ticket promedio), "Mis Negocios" con estadisticas por negocio y pantalla de Ajustes.
+- Nota: version de PRUEBA con trial generoso de 15 dias en todos los planes. Si encuentras algun error, escribenos por Telegram (t.me/tecnotactil) y lo corregimos rapido.
+
 ## 2.0.0 - 2026-06-23
 
 - Nueva aplicacion de escritorio con interfaz web moderna (WebView2): mas rapida, clara y consistente con la web.
