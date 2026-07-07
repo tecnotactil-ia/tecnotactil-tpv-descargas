@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.5.3 - 2026-07-07 (release Linux + fixes legales + bloqueo licencia)
+
+- **Fichas de costo**: actualizada la referencia legal de Res. 20/2014 → **Res. 148/2023 MFP** (Gaceta Of. No. 64/2023 del 6-jul-2023). La 20/2014 quedó derogada implícitamente por 148/2023 y las intermedias (62/2021, 337/2021).
+- **Bloqueo por licencia vencida + 7 días de gracia**: cuando la licencia expira, la app avisa en gracia durante 7 días; pasado ese periodo la app queda BLOQUEADA (solo se puede acceder a Mi licencia, Sincronizar, Configuración, Ampliar plan y Asistente Jurídico) hasta renovar y sincronizar.
+- **Refresco automático de límites**: `refrescar_estado()` ahora lee `limites.max_negocios` y `extra_cajas` del verificar de tpv-core y los guarda locales — al ampliar el plan en la web, basta con pulsar Sincronizar en el escritorio.
+- **Asistente Jurídico** integrado en el panel general: nueva tarjeta con acceso rápido (5 consultas gratis por usuario en tecnotactil.com; abre en el navegador del sistema).
+
 ## 2.5.3 - 2026-07-07 (release Linux)
 
 - Escritorio Linux: primer bundle oficial `TecnoTactil_Negocio_linux.tar.gz` (x86_64, Debian/Ubuntu/Fedora/Arch). Mismo funcional que el .exe de Windows.
