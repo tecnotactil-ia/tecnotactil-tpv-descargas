@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.5.3 - 2026-07-07 (release Linux)
+
+- Escritorio Linux: primer bundle oficial `TecnoTactil_Negocio_linux.tar.gz` (x86_64, Debian/Ubuntu/Fedora/Arch). Mismo funcional que el .exe de Windows.
+- Instalador `install.sh` con detección automática de instalación previa (modo actualización), matando procesos activos del binario y del Firefox embebido antes de reemplazar.
+- Desinstalador `uninstall.sh` con 3 modos: interactivo (pregunta), `--purge` (borra TODO incluida la BD del negocio) y `--keep-data` (conserva la BD para reinstalación posterior).
+- Datos del negocio en `~/.local/share/tecnotactil/negocio/` (convención XDG).
+- Requiere Firefox del sistema (`apt install firefox` en Debian/Ubuntu; la app también acepta `firefox-esr`).
+
 ## 2.5.3 - 2026-07-02
 
 - Escritorio: instalador UNICO para Windows 7 a 11 con navegador propio integrado (ya no depende de WebView2 ni de componentes del sistema; funciona 100% offline).
