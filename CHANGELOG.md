@@ -1,5 +1,23 @@
 # Changelog
 
+## 2.5.5 - 2026-07-08 (cumplimiento legal cubano + contratos + Caja 1.2.0)
+
+**Escritorio (Windows 7-11 y Linux):**
+- **Ficha de costo según el modelo OFICIAL de la Res. 148/2023 MFP (Anexo I)**: cabecera con UM, nivel de producción y % de utilización de capacidad; desglose obligatorio del Gasto Material (insumos, combustibles, energía, agua); "de ello: salarios" en las filas 4, 6 y 7; numeración y nombres oficiales (F5 COSTO TOTAL… F14 PRECIO O TARIFA, F15 precio unitario ajustado, F16 precios de referencia); tributos consolidados en la fila 10 (seguridad social + fuerza de trabajo) — el impuesto sobre ventas ya NO forma parte de la ficha (así lo define la norma); aviso cuando los gastos indirectos exceden el coeficiente legal (1.5× el salario directo; 1.0× en servicios).
+- **Vector Fiscal = réplica del RC-04A real de la ONAT**: logo ONAT, columnas oficiales (incl. "Importe c/recargo" al 2%), códigos de tributo verificados con un vector real (0114022 ventas/servicios, 0510122 IIP mensual, 0530222 liquidación DJ, 0730122 documentos) y las notas generales del documento oficial. Eliminada la nota obsoleta del régimen simplificado (derogado por el DL 93/2024).
+- **Contratos desde la aplicación**: generación de "Prestación de Servicios" y "Compraventa" con estructura de proforma legal cubana; la parte del negocio se autollena (titular, CI, licencia, NIT, cuentas CUP/MLC — se configuran una vez); cláusulas precargadas y editables; imprimible con logo y firmas.
+- **Logo del negocio y pies de firma** (Elaborado por / Aprobado por, con cargo) configurables y aplicados a todos los documentos imprimibles.
+- **Impuestos actualizados**: impuesto sobre ventas/servicios por defecto 10% (Ley 181 Presupuesto 2026, antes 21%); la cuota mensual TCP del 5% aplica el mínimo exento de 3.260 CUP; aviso de la liquidación anual por escala progresiva (5%–50%).
+- **Contabilidad según tipo de negocio**: la vista de ingresos-gastos del TCP adopta el nombre oficial "Registro Control de Ingresos y Gastos" (Res. 272/2024) con el aviso legal según tipo e ingresos (NCIF para TCP ≥500.000 CUP y MIPYME/CNA, DL 88/2024).
+
+**Caja (Android) 1.2.0:**
+- Botón "Cerrar sesión" en la pantalla principal (con confirmación) y "Cambiar licencia" en el login.
+- Corregido "Cambiar de negocio": ya no se re-activa solo sin dejar elegir; si no puede listar los negocios muestra el formulario para corregir el email del titular.
+- Corregido el estado de la caja: tras abrirla, el botón "Cerrar Caja" aparece siempre (ahora en su propia fila, a lo ancho).
+- El inventario ya no "revierte" lo vendido al sincronizar: la caja conserva sus descuentos locales hasta que el PC re-publica el stock real.
+- El botón Sincronizar del login es ahora un botón grande siempre visible; la pantalla hace scroll con el teclado abierto.
+- Al desinstalar la app se borran TODOS los datos, incluida la licencia (desactivado el auto-backup de Android).
+
 ## Facturas (Android) 1.1.1 - 2026-07-07 (fix multinegocio: negocio activo en Perfil y Facturas)
 
 - **Perfil y Facturas del negocio elegido**: en el plan Administra Negocio, "Mis Negocios" ahora tiene un botón **"Usar"** por negocio — el negocio elegido pasa a ser el que muestran las pantallas de Perfil y Facturas. Antes siempre mostraban el negocio con que se activó la licencia, nunca los demás. (Estadísticas ya funcionaba por negocio y no cambia.)
