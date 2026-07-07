@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.5.4 - 2026-07-07 (fix multinegocio: cupo de negocios y negocio activo)
+
+- **Cupo de negocios corregido (plan Administra Negocio)**: la app ya no muestra "límite alcanzado" con un cupo cacheado desactualizado — antes, si el valor local de `max_negocios` quedaba viejo (p.ej. plan ampliado después de activar), la app caía a 1 negocio aunque el plan pagado permitiera más.
+- **Refresco del cupo antes de bloquear**: al crear un negocio, la app re-verifica el plan contra el servidor antes de rechazar por límite (si hay conexión); el servidor sigue revalidando siempre.
+- **Perfil y Facturas del negocio activo**: en multinegocio, el perfil del negocio (identidad legal, socios, cuentas, actividades) y las facturas ahora corresponden al negocio SELECCIONADO en el escritorio — antes siempre mostraban el negocio con que se activó la licencia, nunca los demás negocios del plan. (Requiere tpv-core actualizado, ya desplegado.)
+- Windows y Linux publicados con el mismo nombre de fichero de siempre (los enlaces no cambian).
+
 ## 2.5.3 - 2026-07-07 (release Linux + fixes legales + bloqueo licencia)
 
 - **Fichas de costo**: actualizada la referencia legal de Res. 20/2014 → **Res. 148/2023 MFP** (Gaceta Of. No. 64/2023 del 6-jul-2023). La 20/2014 quedó derogada implícitamente por 148/2023 y las intermedias (62/2021, 337/2021).
