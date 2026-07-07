@@ -1,5 +1,10 @@
 # Changelog
 
+## Facturas (Android) 1.1.1 - 2026-07-07 (fix multinegocio: negocio activo en Perfil y Facturas)
+
+- **Perfil y Facturas del negocio elegido**: en el plan Administra Negocio, "Mis Negocios" ahora tiene un botón **"Usar"** por negocio — el negocio elegido pasa a ser el que muestran las pantallas de Perfil y Facturas. Antes siempre mostraban el negocio con que se activó la licencia, nunca los demás. (Estadísticas ya funcionaba por negocio y no cambia.)
+- Misma firma que la versión anterior: se instala encima sin desinstalar.
+
 ## 2.5.4 - 2026-07-07 (fix multinegocio: cupo de negocios y negocio activo)
 
 - **Cupo de negocios corregido (plan Administra Negocio)**: la app ya no muestra "límite alcanzado" con un cupo cacheado desactualizado — antes, si el valor local de `max_negocios` quedaba viejo (p.ej. plan ampliado después de activar), la app caía a 1 negocio aunque el plan pagado permitiera más.
