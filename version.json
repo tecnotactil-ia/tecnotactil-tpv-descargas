@@ -1,36 +1,28 @@
 {
-  "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps (escritorio + Android + futuras) para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
+  "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.0",
+    "version": "2.6.1",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Aviso de nuevas versiones dentro de la app (ya no hay que estar pendiente de la web).",
-      "Inicio de sesion con usuario y contrasena, con roles y permisos.",
-      "El administrador crea cajeros y vendedores con distintos accesos.",
-      "Correccion del plan multinegocio (crear varios negocios).",
-      "Al reinstalar en la misma PC, recupera la licencia y sus negocios."
+      "Correccion: en multinegocio el escritorio vuelve a mostrar el inventario de cada negocio.",
+      "Aviso de nuevas versiones dentro de la app.",
+      "Inicio de sesion con usuario, roles y permisos.",
+      "Correccion del plan multinegocio y recuperacion de negocios al reinstalar."
     ]
   },
   "caja": {
     "version": "1.3.0",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Caja.apk",
     "obligatoria": false,
-    "notas": [
-      "Rediseno de la caja (cabecera, barra inferior, opciones y clientes).",
-      "Cerrar sesion, cambiar de licencia y de negocio.",
-      "El logo del negocio se sincroniza desde el escritorio."
-    ]
+    "notas": ["Rediseno de la caja.", "Cerrar sesion, cambiar de licencia y de negocio.", "Logo del negocio sincronizado."]
   },
   "facturas": {
     "version": "1.1.1",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Facturas.apk",
     "obligatoria": false,
-    "notas": [
-      "App de facturas (Companion) del administrador.",
-      "Soporte de multinegocio."
-    ]
+    "notas": ["App de facturas del administrador.", "Soporte de multinegocio."]
   }
 }
