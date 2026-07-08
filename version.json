@@ -1,16 +1,17 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Correccion: en multinegocio el escritorio vuelve a mostrar el inventario de cada negocio.",
-      "Aviso de nuevas versiones dentro de la app.",
-      "Inicio de sesion con usuario, roles y permisos.",
-      "Correccion del plan multinegocio y recuperacion de negocios al reinstalar."
+      "El boton 'Actualizar' ya funciona: descarga e instala la actualizacion dentro de la app.",
+      "Nuevo boton 'Comprobar / Buscar actualizaciones' en Actualizacion y en Acerca de.",
+      "Multinegocio: el escritorio abre en un negocio con inventario y muestra sus productos.",
+      "Nuevo boton 'Re-sincronizar todo (recuperar de la nube)' cuando el inventario aparece vacio.",
+      "Inicio de sesion con usuario, roles y permisos."
     ]
   },
   "caja": {
