@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.5.6 - 2026-07-08 (enlaces al navegador del sistema, logo sincronizado + Caja 1.3.0)
+
+**Escritorio (Windows 7-11 y Linux):**
+- Los enlaces externos (grupo de Telegram de soporte, web, WhatsApp) ahora abren el **navegador del sistema** (o la app correspondiente) en vez de una pestaña dentro de la ventana de la aplicación.
+- **Logo del negocio**: al subirlo se **reduce automáticamente** (máx. 256px, muy ligero) y se **sincroniza con la Caja Android**, que lo muestra en su pantalla principal.
+
+**Caja (Android) 1.3.0:**
+- Pantalla principal rediseñada: arriba el logo + "TecnoTáctil — «nombre del negocio conectado»"; barra inferior siempre visible con **Sincronizar · Cerrar/Abrir Caja · Clientes · Opciones** y el total **«Ventas del turno»** en vivo.
+- **Opciones**: cerrar sesión y **desvincular de la licencia** (libera el cupo de la caja al momento y borra los datos locales).
+- **Gestionar clientes** (crear y eliminar) para usar la cuenta casa.
+
 ## 2.5.5 - 2026-07-08 (cumplimiento legal cubano + contratos + Caja 1.2.0)
 
 **Escritorio (Windows 7-11 y Linux):**
