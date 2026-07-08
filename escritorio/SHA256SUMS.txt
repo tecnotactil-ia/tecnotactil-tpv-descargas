@@ -1,1 +1,2 @@
 065f145d79bd0f6643f3a5f9f1292b16ae6a302c97e4b27d5bb5b35f4834f042  TecnoTactil_Negocio.exe
+070186f1a92ab27b0c9512c90f2997e640882e5a871328cc230a58499e5bda27  TecnoTactil_Negocio_linux.tar.gz
