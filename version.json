@@ -1,16 +1,16 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.5",
+    "version": "2.6.6",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "La cabecera muestra el nombre real de tu negocio (tambien en negocio unico) al renombrarlo.",
-      "El perfil fiscal (nube) se rellena solo con los datos que ya pusiste en la identidad local (nombre, NIT, telefono, direccion) para no teclearlos dos veces.",
-      "Contabilidad: factura contabilizada no se elimina; se corrige con 'Editar' o 'Quitar de contabilidad'.",
-      "Aviso 'una caja por negocio' solo en multinegocio."
+      "Nuevo modulo 'Contactos': guarda tus clientes y proveedores una vez y reutilizalos al hacer facturas y contratos (se autollenan los datos).",
+      "Contratos: ademas de crear, ahora puedes 'Archivar contrato externo' (guardar una copia, con su documento, de un contrato que ya tienes con otra entidad).",
+      "La cabecera muestra el nombre real de tu negocio al renombrarlo; el perfil fiscal se rellena desde la identidad local.",
+      "Contabilidad sin descuadres y aviso multinegocio condicional."
     ]
   },
   "caja": {
