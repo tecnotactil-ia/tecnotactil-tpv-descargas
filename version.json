@@ -1,17 +1,16 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.3",
+    "version": "2.6.4",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Nuevo boton 'Cambiar / quitar licencia' en la pantalla de Licencia.",
-      "Un solo escritorio por licencia: si ya hay uno conectado, avisa y enlaza a gestionarlo en la web.",
-      "El boton 'Actualizar' descarga e instala la actualizacion dentro de la app.",
-      "Boton 'Comprobar / Buscar actualizaciones' y 'Re-sincronizar todo'.",
-      "Inicio de sesion con usuario, roles y permisos."
+      "Contabilidad: una factura de entrada ya contabilizada no se puede eliminar (evita descuadres); se corrige con 'Editar' y el gasto se actualiza solo, o se usa 'Quitar de contabilidad' para dar un paso atras.",
+      "El aviso de 'una caja por negocio' ahora solo sale en el plan multinegocio.",
+      "Boton 'Cambiar / quitar licencia' y un solo escritorio por licencia.",
+      "Actualizador dentro de la app + 'Re-sincronizar todo'."
     ]
   },
   "caja": {
