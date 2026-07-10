@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.6.8 - 2026-07-10 (nuevo empaquetado nativo con Nuitka)
+
+**Escritorio (Windows y Linux) 2.6.8:**
+- **Nueva tecnología de empaquetado (Nuitka)**: el programa ahora se compila a **binario nativo** — arranque más robusto y el código queda protegido (sustituye a PyInstaller+PyArmor en la edición moderna; la edición Win7 no cambia).
+- Corrige de raíz el fallo del primer instalador 2.6.7 de Windows ("cannot import name 'create_app'"), causado por una ofuscación parcial de PyArmor.
+- Sin cambios funcionales respecto a 2.6.7 (Contactos activado y compartido en la nube).
+
 ## 2.6.7 - 2026-07-10 (Contactos activado y en la nube + Facturas 1.3.0)
 
 **Escritorio (Windows y Linux) 2.6.7:**
