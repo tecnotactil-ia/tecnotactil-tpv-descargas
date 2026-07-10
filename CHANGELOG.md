@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.7.1 - 2026-07-10 (vuelve la edición universal W7–W11 + ofuscación)
+
+**Escritorio 2.7.1:**
+- **Windows: se publica de nuevo la edición UNIVERSAL** (Windows 7 SP1 → Windows 11, 32 y 64 bits, con runtime UCRT incluido). Las versiones 2.6.7–2.7.0 se publicaron por error con la edición moderna, que solo arranca en Windows 10/11 de 64 bits ("Failed to load Python DLL" en equipos viejos).
+- Mantiene la **ofuscación completa** con PyArmor (licencia) introducida en 2.7.0, ahora también en la edición universal.
+- Linux sin cambios funcionales (recompilado como 2.7.1 por consistencia).
+
 ## 2.7.0 - 2026-07-10 (código protegido con PyArmor con licencia)
 
 **Escritorio (Windows y Linux) 2.7.0:**
