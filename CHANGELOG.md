@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.6.9 - 2026-07-10 (vuelta al empaquetado clásico)
+
+**Escritorio (Windows y Linux) 2.6.9:**
+- **Revertido el empaquetado Nuitka de 2.6.8**: el binario nativo no arrancaba en algunos Windows (bloqueo silencioso del antivirus con ejecutables Nuitka sin firma). Se vuelve a PyInstaller, el empaquetado probado de todas las versiones anteriores.
+- Sin cambios funcionales (Contactos activado y compartido en la nube, igual que 2.6.7).
+
 ## 2.6.8 - 2026-07-10 (nuevo empaquetado nativo con Nuitka)
 
 **Escritorio (Windows y Linux) 2.6.8:**
