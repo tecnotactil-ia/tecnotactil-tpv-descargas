@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.7.0 - 2026-07-10 (código protegido con PyArmor con licencia)
+
+**Escritorio (Windows y Linux) 2.7.0:**
+- **Ofuscación completa del código** con PyArmor (licencia Basic): por primera vez TODO el programa viaja cifrado (las versiones anteriores iban sin ofuscar porque la versión trial no soportaba los módulos grandes).
+- Mismo empaquetado estable (PyInstaller) de siempre; sin cambios funcionales.
+
 ## 2.6.9 - 2026-07-10 (vuelta al empaquetado clásico)
 
 **Escritorio (Windows y Linux) 2.6.9:**

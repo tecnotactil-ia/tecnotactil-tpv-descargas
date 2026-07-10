@@ -1,14 +1,14 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.9",
+    "version": "2.7.0",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Vuelve el empaquetado clasico: la 2.6.8 no arrancaba en algunos Windows (bloqueo del antivirus con el binario nuevo).",
-      "Sin cambios funcionales: incluye el modulo Contactos activado y compartido en la nube con la app TecnoTactil Facturas."
+      "Codigo del programa protegido con ofuscacion completa (licencia PyArmor).",
+      "Mismo empaquetado estable de siempre; sin cambios funcionales (Contactos en la nube incluido)."
     ]
   },
   "caja": {
