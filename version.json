@@ -1,28 +1,36 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.6.6",
+    "version": "2.6.7",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Nuevo modulo 'Contactos': guarda tus clientes y proveedores una vez y reutilizalos al hacer facturas y contratos (se autollenan los datos).",
-      "Contratos: ademas de crear, ahora puedes 'Archivar contrato externo' (guardar una copia, con su documento, de un contrato que ya tienes con otra entidad).",
-      "La cabecera muestra el nombre real de tu negocio al renombrarlo; el perfil fiscal se rellena desde la identidad local.",
-      "Contabilidad sin descuadres y aviso multinegocio condicional."
+      "Modulo 'Contactos' ACTIVADO (en 2.6.6 aparecia 'en mantenimiento' por error).",
+      "Los contactos ahora viven en la nube: el MISMO directorio de clientes y proveedores se comparte entre el escritorio y la app TecnoTactil Facturas; los contactos locales existentes se migran solos.",
+      "Se reutilizan al emitir facturas de venta/entrada y contratos (autollenado)."
     ]
   },
   "caja": {
     "version": "1.3.0",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Caja.apk",
     "obligatoria": false,
-    "notas": ["Rediseno de la caja.", "Cerrar sesion, cambiar de licencia y de negocio.", "Logo del negocio sincronizado."]
+    "notas": [
+      "Rediseno de la caja.",
+      "Cerrar sesion, cambiar de licencia y de negocio.",
+      "Logo del negocio sincronizado."
+    ]
   },
   "facturas": {
-    "version": "1.1.1",
+    "version": "1.3.0",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Facturas.apk",
     "obligatoria": false,
-    "notas": ["App de facturas del administrador.", "Soporte de multinegocio."]
+    "notas": [
+      "La app ahora se llama 'TecnoTactil Facturas', con icono propio de la marca.",
+      "Inicio de sesion con tu usuario del negocio (los mismos de la Caja) + boton 'Sincronizar usuarios'.",
+      "Contactos: crea y edita clientes y proveedores; al hacer una factura, elige un contacto y se autollena.",
+      "La portada muestra el nombre real del negocio; 'Mis negocios' solo en licencias multinegocio, con estadisticas agregadas de todos los negocios."
+    ]
   }
 }

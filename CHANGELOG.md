@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.6.7 - 2026-07-10 (Contactos activado y en la nube + Facturas 1.3.0)
+
+**Escritorio (Windows y Linux) 2.6.7:**
+- **Módulo "Contactos" ACTIVADO**: en 2.6.6 aparecía "en mantenimiento" por un error de registro del menú (el módulo ya estaba construido).
+- **Contactos en la nube**: el directorio de clientes y proveedores ahora vive en el servidor y es el MISMO que usa la app TecnoTáctil Facturas — lo que crees en una app aparece en la otra. Los contactos locales existentes se migran solos la primera vez que abres el módulo.
+- Se siguen reutilizando al emitir facturas de venta/entrada y contratos (autollenado de nombre, NIT/CI, teléfono, banco…).
+
+**Facturas (Android) 1.3.0:**
+- La app pasa a llamarse **"TecnoTáctil Facturas"**, con icono propio de la marca.
+- **Inicio de sesión** con tu usuario del negocio (los mismos usuarios/contraseñas de la Caja) + botón **"Sincronizar usuarios"** para traer usuarios recién creados en el escritorio.
+- **Contactos**: crea y edita clientes y proveedores desde el móvil; al hacer una factura, elige un contacto y se autollenan sus datos (incluye nuevo campo NIT/CI en la factura).
+- La portada muestra el **nombre real del negocio** (antes salía un ID); "Mis negocios" solo aparece en licencias multinegocio y las estadísticas de la portada son el **agregado de todos los negocios** de la licencia.
+
 ## 2.5.6 - 2026-07-08 (enlaces al navegador del sistema, logo sincronizado + Caja 1.3.0)
 
 **Escritorio (Windows 7-11 y Linux):**
