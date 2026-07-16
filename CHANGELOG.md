@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.8.0 - 2026-07-16 (multi-admin: dos escritorios por licencia + sync por deltas)
+
+**Escritorio (Windows y Linux) 2.8.0:**
+- **Dos equipos de administración por licencia** (todos los planes, también licencias ya emitidas): PC del negocio + otra PC (o el futuro admin Android) trabajando a la vez. El tercero se rechaza y se gestiona desde la web (Mi cuenta → Dispositivos).
+- **Sincronización por deltas**: solo viajan los registros modificados (antes se re-subía el catálogo completo en cada sync). Menos datos y sin riesgo de que un equipo con copia vieja pise las ediciones del otro (conflicto = gana la última edición).
+- **Más datos compartidos entre equipos admin**: contabilidad (gastos/ingresos), contactos, facturas de entrada, usuarios con permisos, impuesto (IVA) y logo. Las eliminaciones también se propagan.
+- **Códigos de barras (pendiente de 2.7.2)**: generación EAN-13 + impresión de etiquetas; imagen de producto sincronizada a la Caja.
+- Servidor (tpv-core) actualizado el mismo día: los cajeros NO reciben los datos administrativos (contabilidad, contactos, facturas de entrada).
+
 ## 2.7.1 - 2026-07-10 (vuelve la edición universal W7–W11 + ofuscación)
 
 **Escritorio 2.7.1:**
