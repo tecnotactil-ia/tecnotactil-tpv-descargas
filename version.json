@@ -1,17 +1,16 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.8.0",
+    "version": "2.8.1",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Dos equipos de administracion por licencia: ya puedes trabajar con DOS escritorios a la vez (por ejemplo la PC del negocio y otra en casa); el catalogo, precios y stock se coordinan solos entre ambos.",
-      "Sincronizacion mas rapida y ligera: solo viajan los cambios (antes se re-subia el catalogo completo en cada sincronizacion).",
-      "Ahora tambien se comparten entre tus equipos: contabilidad (gastos e ingresos), contactos, facturas de entrada, usuarios con sus permisos, el impuesto configurado y el logo.",
-      "Codigos de barras: genera EAN-13 para tus productos e imprime etiquetas; la imagen del producto viaja a la Caja Android.",
-      "Si editas lo mismo en dos equipos sin conexion, prevalece la ultima edicion al sincronizar."
+      "Interfaz adaptada a pantallas estrechas: menú desplegable, tablas con desplazamiento y botones táctiles (misma base que la nueva app Android).",
+      "Alta de producto: botón de escanear con la cámara (solo en la app Android) junto a Generar EAN-13.",
+      "Acerca de: Android figura entre los sistemas soportados — la misma licencia funciona en la PC y en el teléfono.",
+      "Actualizaciones por plataforma: cada aplicación recibe su propio instalador (Windows .exe, Linux .tar.gz, Android .apk)."
     ]
   },
   "caja": {
@@ -33,6 +32,16 @@
       "Inicio de sesion con tu usuario del negocio (los mismos de la Caja) + boton 'Sincronizar usuarios'.",
       "Contactos: crea y edita clientes y proveedores; al hacer una factura, elige un contacto y se autollena.",
       "La portada muestra el nombre real del negocio; 'Mis negocios' solo en licencias multinegocio, con estadisticas agregadas de todos los negocios."
+    ]
+  },
+  "negocio_android": {
+    "version": "2.8.1",
+    "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
+    "obligatoria": false,
+    "notas": [
+      "Primera versión pública de TecnoTactil Negocio para Android: TODA la administración del escritorio en tu teléfono (inventario, ventas, contabilidad, facturas, impuestos, multinegocio…).",
+      "Se activa como dispositivo de administración de tu licencia (2 incluidos: PC y/o teléfono).",
+      "Escáner de códigos de barras con la cámara e impresión por el sistema de impresión de Android."
     ]
   }
 }

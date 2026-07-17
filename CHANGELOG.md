@@ -1,5 +1,21 @@
 # Changelog
 
+## 2.8.1 - 2026-07-17 (nace TecnoTactil Negocio para ANDROID + interfaz móvil)
+
+**NUEVO — TecnoTactil Negocio para Android (`android/TecnoTactil_Negocio.apk`, 2.8.1):**
+- **Primera versión pública**: toda la administración del escritorio en el teléfono — inventario, ventas, cierres, contabilidad, facturas, fichas de costo, impuestos, contratos, contactos, usuarios y multinegocio. Misma base de código que el escritorio.
+- Se activa como **dispositivo de administración** de la licencia (2 incluidos: PC y/o teléfono).
+- Escáner de códigos de barras con la cámara (Google code scanner) e impresión por el sistema de Android.
+- Actualizaciones in-app: descarga el APK nuevo con el gestor de descargas del sistema (bloque `negocio_android` del manifiesto).
+
+**Escritorio (Windows y Linux) 2.8.1:**
+- Interfaz adaptada a pantallas estrechas: menú hamburguesa, tablas con desplazamiento horizontal y controles táctiles (base común con la app Android).
+- Alta de producto: botón "Escanear" con la cámara (aparece solo dentro de la app Android).
+- "Acerca de": Android entre los sistemas soportados.
+- Comprobador de actualizaciones por plataforma: cada app recibe SU instalador (Windows .exe / Linux .tar.gz / Android .apk).
+
+*(La app Facturas queda descontinuada: su función la asume TecnoTactil Negocio para Android. El APK sigue publicado temporalmente para los usuarios existentes.)*
+
 ## 2.8.0 - 2026-07-16 (multi-admin: dos escritorios por licencia + sync por deltas)
 
 **Escritorio (Windows y Linux) 2.8.0:**
