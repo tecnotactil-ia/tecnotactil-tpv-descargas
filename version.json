@@ -35,13 +35,13 @@
     ]
   },
   "negocio_android": {
-    "version": "2.8.1",
+    "version": "2.8.2",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
-      "Primera versión pública de TecnoTactil Negocio para Android: TODA la administración del escritorio en tu teléfono (inventario, ventas, contabilidad, facturas, impuestos, multinegocio…).",
-      "Se activa como dispositivo de administración de tu licencia (2 incluidos: PC y/o teléfono).",
-      "Escáner de códigos de barras con la cámara e impresión por el sistema de impresión de Android."
+      "Escaner de codigos de barras renovado: ahora funciona sin conexion y sin Google Play Services (camara integrada en la app).",
+      "Los enlaces externos (Asistente Juridico, ampliar plan, soporte) ya se abren en el navegador del telefono.",
+      "Carga de imagen de producto desde la galeria o la camara del telefono."
     ]
   }
 }

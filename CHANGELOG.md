@@ -161,3 +161,17 @@
 - Configuracion de negocio e impuestos.
 - Permisos personalizados por usuario.
 - Build protegido para distribucion.
+
+## Negocio Android 2.8.2 — 2026-07-17
+
+- Escáner de códigos de barras renovado: CameraX + ML Kit EMPAQUETADO (offline, sin
+  Google Play Services). El escáner anterior (code scanner de Play Services) fallaba
+  en silencio si el módulo GMS no estaba instalado en el teléfono.
+- Enlaces externos (Asistente Jurídico, ampliar plan, soporte/Telegram) ya se abren
+  en el navegador del teléfono: la WebView intercepta hosts no locales con un Intent
+  y las rutas Flask /juridico, /abrir-externo y /ampliar-plan devuelven redirect en
+  Android (webbrowser.open no hace nada dentro de Chaquopy).
+- Carga de imagen de producto: onShowFileChooser en la WebView abre el selector del
+  sistema (galería/cámara) — no era un problema de permisos, faltaba el puente.
+- Peso: ~54 MB (antes 39) por el ML Kit empaquetado; a cambio el escáner no depende
+  de Google.
