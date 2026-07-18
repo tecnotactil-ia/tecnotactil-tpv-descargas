@@ -23,10 +23,12 @@
     ]
   },
   "negocio_android": {
-    "version": "2.8.5",
+    "version": "2.8.6",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
+      "Al desinstalar la app se borran TODOS los datos: si la reinstalas, empieza limpia (antes Android restauraba la base de datos vieja, y por eso a veces no pedia crear el usuario o fallaba la sincronizacion tras reinstalar).",
+      "El telefono se registra con su nombre real en 'Dispositivos' de la web (antes salia como 'localhost' / Windows).",
       "Segundo dispositivo admin ARREGLADO: al crear el administrador se publica al instante, y el segundo dispositivo (PC o teléfono) que active la misma licencia entra directo al login con ese usuario — ya no pide crear otro. Verificado de punta a punta.",
       "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
       "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."

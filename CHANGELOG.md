@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.8.6 - 2026-07-18 (Android Negocio: instalacion limpia + nombre real del dispositivo)
+
+**Solo TecnoTactil Negocio para Android (`android/TecnoTactil_Negocio.apk`, 2.8.6):**
+- **Instalacion limpia al reinstalar**: se desactivo la copia de seguridad de Android (`allowBackup=false`), que restauraba la base de datos vieja al reinstalar. Ese arrastre de datos causaba que en el PRIMER dispositivo no se pidiera crear el usuario administrador y que fallara la sincronizacion. Ahora, al desinstalar se borra todo y una reinstalacion empieza de cero.
+- **Nombre real del dispositivo**: el telefono se registra con su marca y modelo en "Dispositivos" de la web (antes aparecia como `localhost` y plataforma `windows`).
+
+*(El escritorio Windows/Linux sigue en 2.8.5; estos arreglos son especificos de Android.)*
+
 ## 2.8.5 - 2026-07-18 (arreglo VERIFICADO del segundo dispositivo admin)
 
 **El error del segundo administrador está corregido** (Windows, Linux y Android Negocio):
