@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.8.5 - 2026-07-18 (arreglo VERIFICADO del segundo dispositivo admin)
+
+**El error del segundo administrador está corregido** (Windows, Linux y Android Negocio):
+- Al crear el usuario administrador, el dispositivo lo **publica al instante** en la nube. Antes se quedaba local hasta la siguiente sincronización manual; si un segundo dispositivo (PC o teléfono) activaba la misma licencia entretanto, volvía a pedir "crear administrador" en vez de iniciar sesión.
+- Ahora el segundo dispositivo admin entra **directo al login** con el usuario existente, y baja catálogo, contabilidad, contactos y facturas.
+- Verificado de punta a punta con dispositivos reales contra producción: PC + teléfono (administración) + Caja compartiendo la misma licencia; venta hecha en la Caja recibida en el PC con descuento de inventario.
+
+*(La 2.8.4 anunciaba esta corrección pero estaba incompleta; la 2.8.5 la completa.)*
+
 ## 2.8.1 - 2026-07-17 (nace TecnoTactil Negocio para ANDROID + interfaz móvil)
 
 **NUEVO — TecnoTactil Negocio para Android (`android/TecnoTactil_Negocio.apk`, 2.8.1):**

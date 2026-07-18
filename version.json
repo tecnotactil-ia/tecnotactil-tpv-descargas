@@ -1,13 +1,13 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.8.4",
+    "version": "2.8.5",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Segundo dispositivo admin: al activar la licencia se sincroniza primero — si tu negocio ya tiene un administrador, entras directo al login con tu usuario de siempre (ya no pide crear otro).",
+      "Segundo dispositivo admin ARREGLADO: al crear el administrador se publica al instante, y el segundo dispositivo (PC o teléfono) que active la misma licencia entra directo al login con ese usuario — ya no pide crear otro. Verificado de punta a punta.",
       "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
       "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
     ]
@@ -34,11 +34,11 @@
     ]
   },
   "negocio_android": {
-    "version": "2.8.4",
+    "version": "2.8.5",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
-      "Segundo dispositivo admin: al activar la licencia se sincroniza primero — si tu negocio ya tiene un administrador, entras directo al login con tu usuario de siempre (ya no pide crear otro).",
+      "Segundo dispositivo admin ARREGLADO: al crear el administrador se publica al instante, y el segundo dispositivo (PC o teléfono) que active la misma licencia entra directo al login con ese usuario — ya no pide crear otro. Verificado de punta a punta.",
       "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
       "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
     ]
