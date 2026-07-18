@@ -1,16 +1,15 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.8.1",
+    "version": "2.8.3",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Interfaz adaptada a pantallas estrechas: menú desplegable, tablas con desplazamiento y botones táctiles (misma base que la nueva app Android).",
-      "Alta de producto: botón de escanear con la cámara (solo en la app Android) junto a Generar EAN-13.",
-      "Acerca de: Android figura entre los sistemas soportados — la misma licencia funciona en la PC y en el teléfono.",
-      "Actualizaciones por plataforma: cada aplicación recibe su propio instalador (Windows .exe, Linux .tar.gz, Android .apk)."
+      "Fichas de costo sincronizadas entre dispositivos admin: crea o edita una ficha (con sus materiales y gastos) en la PC o el movil y aparece en el resto de tus equipos.",
+      "La ficha viaja completa con su producto vinculado; al eliminar una ficha se elimina tambien en los demas dispositivos.",
+      "Las fichas son privadas del administrador: las cajas no las reciben."
     ]
   },
   "caja": {
@@ -35,13 +34,13 @@
     ]
   },
   "negocio_android": {
-    "version": "2.8.2",
+    "version": "2.8.3",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
-      "Escaner de codigos de barras renovado: ahora funciona sin conexion y sin Google Play Services (camara integrada en la app).",
-      "Los enlaces externos (Asistente Juridico, ampliar plan, soporte) ya se abren en el navegador del telefono.",
-      "Carga de imagen de producto desde la galeria o la camara del telefono."
+      "Fichas de costo sincronizadas entre dispositivos admin: crea o edita una ficha (con sus materiales y gastos) en la PC o el movil y aparece en el resto de tus equipos.",
+      "La ficha viaja completa con su producto vinculado; al eliminar una ficha se elimina tambien en los demas dispositivos.",
+      "Las fichas son privadas del administrador: las cajas no las reciben."
     ]
   }
 }
