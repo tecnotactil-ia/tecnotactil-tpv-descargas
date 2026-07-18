@@ -1,15 +1,15 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.8.3",
+    "version": "2.8.4",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Fichas de costo sincronizadas entre dispositivos admin: crea o edita una ficha (con sus materiales y gastos) en la PC o el movil y aparece en el resto de tus equipos.",
-      "La ficha viaja completa con su producto vinculado; al eliminar una ficha se elimina tambien en los demas dispositivos.",
-      "Las fichas son privadas del administrador: las cajas no las reciben."
+      "Segundo dispositivo admin: al activar la licencia se sincroniza primero — si tu negocio ya tiene un administrador, entras directo al login con tu usuario de siempre (ya no pide crear otro).",
+      "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
+      "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
     ]
   },
   "caja": {
@@ -34,13 +34,13 @@
     ]
   },
   "negocio_android": {
-    "version": "2.8.3",
+    "version": "2.8.4",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
-      "Fichas de costo sincronizadas entre dispositivos admin: crea o edita una ficha (con sus materiales y gastos) en la PC o el movil y aparece en el resto de tus equipos.",
-      "La ficha viaja completa con su producto vinculado; al eliminar una ficha se elimina tambien en los demas dispositivos.",
-      "Las fichas son privadas del administrador: las cajas no las reciben."
+      "Segundo dispositivo admin: al activar la licencia se sincroniza primero — si tu negocio ya tiene un administrador, entras directo al login con tu usuario de siempre (ya no pide crear otro).",
+      "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
+      "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
     ]
   }
 }
