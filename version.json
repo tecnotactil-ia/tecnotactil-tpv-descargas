@@ -22,17 +22,6 @@
       "Logo del negocio sincronizado."
     ]
   },
-  "facturas": {
-    "version": "1.3.0",
-    "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Facturas.apk",
-    "obligatoria": false,
-    "notas": [
-      "La app ahora se llama 'TecnoTactil Facturas', con icono propio de la marca.",
-      "Inicio de sesion con tu usuario del negocio (los mismos de la Caja) + boton 'Sincronizar usuarios'.",
-      "Contactos: crea y edita clientes y proveedores; al hacer una factura, elige un contacto y se autollena.",
-      "La portada muestra el nombre real del negocio; 'Mis negocios' solo en licencias multinegocio, con estadisticas agregadas de todos los negocios."
-    ]
-  },
   "negocio_android": {
     "version": "2.8.5",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
