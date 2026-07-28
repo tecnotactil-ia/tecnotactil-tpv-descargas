@@ -6,7 +6,7 @@ con usuarios por permisos.
 
 ## Descargar
 
-Version actual: `2.8.5`
+Version actual: `2.8.7`
 
 Descarga recomendada:
 
