@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.8.8 - 2026-08-22 (prueba de 15 dias + multi-moneda + inventario de verdad)
+
+Escritorio Windows/Linux 2.8.8, TecnoTactil Negocio Android 2.8.8 (vc9) y Caja Android 1.5.0 (vc7).
+
+**Prueba gratis de 15 dias (todas las apps):**
+- La app funciona SIN licencia durante 15 dias desde el primer arranque y luego pide la licencia. Se pide el correo al empezar (queda pre-registrado en la web para activar y llevarse el bono de bienvenida). El servidor sella la ventana por dispositivo, asi que reinstalar no regala otra prueba.
+
+**Multi-moneda (escritorio y Negocio Android):**
+- Precios y cobros en CUP, USD o EUR usando la tasa de cambio central de la web (o una tasa propia del negocio), con soporte sin conexion.
+- **Los impuestos se calculan SIEMPRE en CUP**, convirtiendo cada venta/gasto con la tasa CONGELADA del dia en que se registro (correcto para la ONAT). La ficha de costo no cambia.
+
+**Multi-moneda (Caja Android 1.5.0):**
+- Al cobrar se elige la moneda de pago; la app calcula el total y el VUELTO en esa divisa con la tasa. Arqueo de caja por divisa.
+
+**Inventario de verdad (escritorio y Negocio Android):**
+- Las ventas dejan movimiento en el kardex (con saldo resultante); antes solo restaban el numero.
+- Salidas nuevas: devolucion a proveedor y autoconsumo (con documento).
+- Vista de reposicion (productos bajo minimo + cantidad sugerida) y reporte de valoracion del inventario (al costo, por categoria).
+
 ## 2.8.6 - 2026-07-18 (Android Negocio: instalacion limpia + nombre real del dispositivo)
 
 **Solo TecnoTactil Negocio para Android (`android/TecnoTactil_Negocio.apk`, 2.8.6):**

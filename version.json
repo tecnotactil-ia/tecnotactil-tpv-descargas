@@ -1,37 +1,36 @@
 {
   "_comment": "Manifiesto de versiones del ecosistema TecnoTactil. Fuente unica que consultan las apps para avisar de actualizaciones. Sube 'version' y 'notas' en cada release.",
   "escritorio": {
-    "version": "2.8.5",
+    "version": "2.8.8",
     "url_windows": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio.exe",
     "url_linux": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/escritorio/TecnoTactil_Negocio_linux.tar.gz",
     "obligatoria": false,
     "min_soportada": "2.5.0",
     "notas": [
-      "Segundo dispositivo admin ARREGLADO: al crear el administrador se publica al instante, y el segundo dispositivo (PC o teléfono) que active la misma licencia entra directo al login con ese usuario — ya no pide crear otro. Verificado de punta a punta.",
-      "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
-      "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
+      "Prueba gratis de 15 dias: la app funciona sin licencia durante 15 dias y luego se activa con tu licencia (empiezas a usarla sin pagar nada).",
+      "Multi-moneda: lleva precios y cobra en CUP, USD o EUR usando la tasa de cambio de la web (o la tuya propia). Los IMPUESTOS se calculan SIEMPRE en CUP, con la tasa del dia de cada venta.",
+      "Inventario de verdad: cada venta deja su movimiento en el kardex con saldo, salidas por devolucion a proveedor y autoconsumo, lista de reposicion (lo que esta bajo minimo) y valoracion del inventario.",
+      "El escaner de codigos y la impresion siguen igual."
     ]
   },
   "caja": {
-    "version": "1.3.0",
+    "version": "1.5.0",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Caja.apk",
     "obligatoria": false,
     "notas": [
-      "Rediseno de la caja.",
-      "Cerrar sesion, cambiar de licencia y de negocio.",
-      "Logo del negocio sincronizado."
+      "Prueba gratis de 15 dias.",
+      "Cobra en varias monedas (CUP, USD, EUR): eliges la moneda de pago y la app calcula el total y el VUELTO en esa divisa con la tasa de cambio.",
+      "Arqueo de caja por divisa: el efectivo se cuenta por separado en cada moneda al cerrar el turno."
     ]
   },
   "negocio_android": {
-    "version": "2.8.6",
+    "version": "2.8.8",
     "url_android": "https://github.com/tecnotactil-ia/tecnotactil-tpv-descargas/raw/main/android/TecnoTactil_Negocio.apk",
     "obligatoria": false,
     "notas": [
-      "Al desinstalar la app se borran TODOS los datos: si la reinstalas, empieza limpia (antes Android restauraba la base de datos vieja, y por eso a veces no pedia crear el usuario o fallaba la sincronizacion tras reinstalar).",
-      "El telefono se registra con su nombre real en 'Dispositivos' de la web (antes salia como 'localhost' / Windows).",
-      "Segundo dispositivo admin ARREGLADO: al crear el administrador se publica al instante, y el segundo dispositivo (PC o teléfono) que active la misma licencia entra directo al login con ese usuario — ya no pide crear otro. Verificado de punta a punta.",
-      "Corregidos errores de sincronizacion al unir un dispositivo nuevo (usuarios duplicados e impuesto reiniciado).",
-      "Fichas de costo sincronizadas entre tus dispositivos admin, con materiales y gastos incluidos; privadas del administrador."
+      "Prueba gratis de 15 dias: la app funciona sin licencia durante 15 dias y luego se activa con tu licencia.",
+      "Multi-moneda: precios y cobros en CUP, USD o EUR con la tasa de cambio de la web (o la tuya). Los impuestos SIEMPRE en CUP.",
+      "Inventario de verdad: kardex con las ventas, salidas por devolucion a proveedor y autoconsumo, lista de reposicion y valoracion del inventario."
     ]
   }
 }
